@@ -1,0 +1,6 @@
+# Uses both TCP/UDP
+ServerPort: 10000
+
+Slave:
+  - "127.0.0.2"
+  - "127.0.0.3:12345"
